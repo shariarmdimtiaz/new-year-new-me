@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 16px 12px;
+    height: 64px;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+/* header styles */
+header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 808px;
+    background-size: cover;
+}
+
+
+/* banner styles */
+.banner {
+    position: relative;
+    float: right;
+    color: #FFFFFF;
+    padding-top: 216px;
+    text-align: right;
+    margin-right: 230px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    width: 525px;
+    padding-bottom: 24px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.banner-distription {
+    font-weight: 400;
+    font-size: 16px;
+    width: 494px;
+    padding-bottom: 32px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* my failures of previous year styles */
+.section-container {
+    display: flex;
+    gap: 87px;
+    margin: 0 10%;
+    padding-top: 130px;
+}
+
+.section-img img {
+    width: 569px;
+    height: auto;
+}
+
+.section-details {
+    height: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    width: 288px;
+    margin: 0;
+    margin-top: 50%;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    width: 416px;
+    padding-top: 24px;
+}
+
+.failures {
+    padding-top: 16px;
+}
+
+.failures p{
+    padding-top: 8px;
+}
+/* my plans styles */
+.my-plan-section {
+    margin: 0 10%;
+}
+
+.plan-title {
+    padding-top: 130px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 20px;
+    text-align: center;    
+    margin: 0 auto;   
+    padding-top: 50px;    
+}
+.plan {
+    width: 300px;
+    margin: 0 auto;
+}
+.plan-subtitle{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+}
+.plan-description{
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* positive-mindset styles */
+.mindset-container{
+    margin: 0 10%;
+}
+.mindset-bg{
+    margin: 130px 0;
+    height: 300px;
+    background-image: linear-gradient(to right,rgba(0,95,172,1.000), rgba(241, 242, 245, 0.01)), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+       
+}
+h3{
+    color: #FFFFFF;
+    width: 459px;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+.mindset-description{
+    padding-top: 59PX;
+    margin-left: 64px;
+}
+
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 250px;
+    color: #FFFFFF;
+    background: #000000;
+    padding: 130px 10%;
+}
+.contact-title{
+    text-align: left;
+    font-weight: 700;
+    font-size: 45px;
+}
+.contact-description{
+    font-weight: 400;
+    font-size: 16px;
+    width: 485px;
+    padding: 16px 0;
+}
+.subscription{
+    width: 325px;
+}
+.subscription-title{
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.subscription input[type="email"]{
+    
+    width: 325px;
+    height: 44px;
+    border: 2px solid white;
+    border-radius: 5px; 
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 16px;
+    
+}
+.subscription input[type="email"]:hover {
+    border: 2px solid white;
+    border-radius: 5px; 
+}
+.subscription .btn-primary{
+    color: #FFFFFF;
+    margin-top: 16px;
+    background-color: #005FAC;
+}
+.contact a{
+    text-decoration: none;
+}
+
